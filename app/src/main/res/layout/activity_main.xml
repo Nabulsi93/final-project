@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="photgraphy.com.google.phtography.MainActivity"
+    android:background="@drawable/cc">
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/btn1"
+        android:layout_x="0dp"
+        android:layout_y="402dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcom to "
+        android:id="@+id/textView"
+        android:layout_x="100dp"
+        android:layout_y="289dp"
+        android:textColor="#acfd0707"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="photography giude"
+        android:id="@+id/textView2"
+        android:layout_x="42dp"
+        android:layout_y="338dp"
+        android:textColor="#acfd0707"
+        android:textSize="35dp" />
+
+</AbsoluteLayout>

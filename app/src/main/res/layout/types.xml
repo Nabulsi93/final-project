@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lenss"
+        android:id="@+id/btn2"
+        android:layout_x="148dp"
+        android:layout_y="342dp"
+        android:typeface="serif"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:text="Models"
+        android:id="@+id/btnt3"
+        android:layout_x="51dp"
+        android:layout_y="220dp"
+        android:typeface="serif"
+        android:textColor="#1eff00" />
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnt1"
+        android:layout_x="17dp"
+        android:layout_y="454dp"
+        android:textColor="#0022ff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Watch Videos"
+        android:id="@+id/bbv1"
+        android:layout_x="94dp"
+        android:layout_y="282dp"
+        android:textColor="#ffd000" />
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:text="For more Info visit canon Website"
+        android:id="@+id/bb2"
+        android:layout_x="15dp"
+        android:layout_y="160dp"
+        android:textColor="#358e06" />
+
+</AbsoluteLayout>

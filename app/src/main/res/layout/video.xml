@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ee">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="how to take photo shoot"
+        android:id="@+id/v1"
+        android:layout_x="85dp"
+        android:layout_y="164dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creative Photography which lens to use"
+        android:id="@+id/v2"
+        android:layout_x="33dp"
+        android:layout_y="363dp" />
+
+    <Button
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnb1"
+        android:layout_x="41dp"
+        android:layout_y="435dp" />
+
+    <Button
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/btnh1"
+        android:layout_x="199dp"
+        android:layout_y="436dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Use a Manual Lens"
+        android:id="@+id/v3"
+        android:layout_x="86dp"
+        android:layout_y="270dp" />
+</AbsoluteLayout>

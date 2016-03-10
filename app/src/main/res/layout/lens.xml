@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="262dp"
+        android:id="@+id/aa"
+        android:layout_x="62dp"
+        android:layout_y="14dp"
+        android:src="@drawable/aa" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="this a 18-55 lens and the defult lens for almost of Canon Cameras"
+        android:id="@+id/textView3"
+        android:layout_x="11dp"
+        android:layout_y="286dp"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="130dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Canon&apos;s 18-55mm 1:3.5-5.6 IS is the latest in its line of inexpensive DSLRs kit lenses which began with the original 18-55mm in 2003, as an accompaniment to the groundbreaking EOS Digital Rebel/300D (widely considered to be the camera which started the affordable DSLR revolution)"
+        android:id="@+id/textView4"
+        android:layout_x="11dp"
+        android:layout_y="333dp"
+        android:textColor="#ff0000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnl1"
+        android:layout_x="163dp"
+        android:layout_y="460dp" />
+</AbsoluteLayout>
